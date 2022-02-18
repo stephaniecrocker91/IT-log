@@ -1,3 +1,10 @@
+/* General styling rules*/
+.keyword {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+
 /*Nav Bar */
 
 ul {
