@@ -3,6 +3,7 @@
 body {
     font-family: 'Arsenal', sans-serif;
     font-size: 18px;
+    margin:0;
 }
 
 /* General styling rules*/
@@ -40,6 +41,11 @@ li a {
     max-width: 70vw;
     margin-left: 15vw;
     margin-top: 30vh;
+}
+/*Homepage*/
+#background-img {
+    background: url("../images/goddard.png");
+    height:90vh;
 }
 
 /* Table styling */
