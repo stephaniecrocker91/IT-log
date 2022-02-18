@@ -10,6 +10,9 @@ body {
     text-decoration: underline;
     font-style: italic;
 }
+.search {
+    text-align: center;
+}
 
 
 /*Nav Bar */
@@ -36,7 +39,7 @@ li a {
 #logo {
     max-width: 70vw;
     margin-left: 15vw;
-    margin-top: 40vh;
+    margin-top: 30vh;
 }
 
 /* Table styling */
