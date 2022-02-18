@@ -5,14 +5,38 @@ body {
     font-size: 18px;
     margin:0;
 }
+h1 {
+    background-color: #f3f3f3;
+    width: 70vw;
+    margin-left: 15vw;
+    text-align: center;
+    color:black;
+    font-size: 26px;
+
+}
 
 /* General styling rules*/
 .keyword {
     text-decoration: underline;
     font-style: italic;
 }
+
+/* Search forms*/
 .search {
     text-align: center;
+}
+#all-search {
+    margin-top: 2vh;
+}
+.buttons {
+    background-color: black;
+    color: #f3f3f3;
+    padding: 3px 5px;
+}
+.buttons:hover {
+    background-color: #f3f3f3;
+    color: #372825;
+    font-size: 20px;
 }
 
 
@@ -37,17 +61,19 @@ li a {
 }
 
 /*Logo*/
-#logo {
-    max-width: 70vw;
-    margin-left: 15vw;
-    margin-top: 30vh;
-}
+
 /*Homepage*/
 #background-img {
     background: url("../images/goddard.png");
     height:90vh;
+    
 }
-
+#logo {
+    max-width: 70vw;
+    margin-left: 15vw;
+    margin-top: 35vh;
+    opacity: 1;
+}
 /* Table styling */
 table {
     width: 90vw;
