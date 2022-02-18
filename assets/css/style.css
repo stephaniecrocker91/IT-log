@@ -1,0 +1,33 @@
+/*Nav Bar */
+
+ul {
+    text-align: center;
+    margin: 0 auto;
+}
+li {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+/*Logo*/
+#logo {
+    max-width: 70vw;
+    margin-left: 15vw;
+    margin-top: 40vh;
+}
+
+/* Table styling */
+table {
+    width: 90vw;
+}
+
+th {
+    border: 2px solid;
+    padding: 5px;
+}
+td {
+    border: 1px solid;
+    padding: 2px;
+ }
