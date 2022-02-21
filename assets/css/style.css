@@ -73,14 +73,15 @@ li a {
 /*Homepage*/
 #background-img {
     background: url("../images/goddard.png");
-    height:90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
     
 }
 #logo {
-    max-width: 70vw;
-    margin-left: 15vw;
+    width: 50vw;
+    margin-left: 25vw;
     margin-top: 35vh;
-    opacity: 1;
 }
 /* Table styling */
 table {
