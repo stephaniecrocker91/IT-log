@@ -30,9 +30,10 @@
             <input type="text" id="imac-keyword-search" aria-label="Search through imac database">
             <input type="submit" value="Search" id="button-imac-search" class="buttons">
         </form>
-        <div id="imacs-display-area">
+        <div id="all-imacs">
             <table>
                 <div id="button-area">
+                    <button class="selection-button-imac buttons" id="imac-button-all">All Imacs</button>
                     <button class="selection-button-imac buttons" id="imac-button-london">London</button>
                     <button class="selection-button-imac buttons" id="imac-button-porto">Porto</button>
                     <button class="selection-button-imac buttons" id="imac-button-leased">Leased</button>
@@ -47,7 +48,7 @@
                     <th>Leased?</th>
                     <th>Comments</th>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_4</td>
                     <td><a href="https://everymac.com/ultimate-mac-lookup/?search_keywords=C02H775WDHJP&g-recaptcha-response=03AGdBq27wTKMyfjVvHGJSBjyJ5AvaDCCW7JvZdNyhM70RsmLQvrispv21cUbTOjvlVogOZpk0fMoofFa8Y7yqGprKZbt77bke6rpWzW4b-KH_pvIn4FjkwkNSI8XGDKXHvGIN45oHrsL3vr8IFu0Wk0fHsyemmZjiksq0purx1_YG9FjncMb7rDjvM8UxK0UfXDdA7K1eUrcwj3NK9wPsC566K2UKqYpPnaSfaDJgsbe1PvZ87_R3kM5LhrAEG8xAsWsSDqGNOG6Yfyg-8yvxTv5a9KCWZYRPTr8gte3n85tOFmUDfsKewvXeyJIAU42_UebxE1NZhfPknsWgEv4tftRN3b6-G48ZZLcoPCQ1ePDR5IO97gP2cXhDA-CY1dYhaHsyEHsy50UXMlPyw9y8Pl4qLTKV-hEEH1Itr3bQWmhVmOBdfVTImF23_OQRzUH__WRFUHqkQkbf"
                             target="_blank">C02H775WDHJP</a></td>
@@ -57,7 +58,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_6</td>
                     <td><a href="https://everymac.com/ultimate-mac-lookup/?search_keywords=C02K11PWDNMP&g-recaptcha-response=03AGdBq27qBcWQszhO3DZYV7zatiatl75nvC_MJ6B1uzrXJY1QdFUYhC0HVKJ_T-2cBlnrZf9aFTPG6J2rqOGQ4pFPCf5fU-LqMfdlhG1t1KMAOUy0l-kVnbklY3RSW3DB2yq7tfw0KgBMNDma8YnyVFC2Tg9xP3eO0LLEjxtHu0D8XQHZXGO6LULJfQ2173obGD-3-s1TrrW7wvKDZmLMpDLDeVW1FJp1S-P3LbcTqMomXjNX5G0V_UaIX-3hzVSEx1lSbGiH8TJYo4ME5Bm46628f0zMV2Bsc8RoMPZfBjQK6bvSxSUm_awo6mibuuAwV4tF7FzD3DVnRLBPWL_CV_Crcwix9ekc4miKqWcXuMZOrenBQYbtdqTDxH2WcE_haXEC192ybN2C5CHqZL0BOY6QIZDA8sOWPSVE18Fy24yhi_QKlRbjF5yhg14gYgDTFgjNH_moTHpm"
                             target="_blank">C02K11PWDNMP</a></td>
@@ -67,7 +68,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr class="porto">
+                <tr class="porto-imacs">
                     <td>GL_iMac_9</td>
                     <td><a href="" target="_blank">DGKK91ALDNMP</a></td>
                     <td>Porto</td>
@@ -76,7 +77,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_10</td>
                     <td><a href="" target="_blank">C02K912EDNMP</a></td>
                     <td>London</td>
@@ -85,7 +86,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr class="porto">
+                <tr class="porto-imacs">
                     <td>GL_iMac_15</td>
                     <td><a href="" target="_blank">DGKM41ABF8JC</a></td>
                     <td>Porto</td>
@@ -94,7 +95,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_16</td>
                     <td><a href="" target="_blank">DGKM603TF8JC</a></td>
                     <td>London</td>
@@ -103,7 +104,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr class="porto">
+                <tr class="porto-imacs">
                     <td>GL_iMac_17</td>
                     <td><a href="" target="_blank">DGKM41JUF8JC</a></td>
                     <td>Porto</td>
@@ -112,7 +113,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_18</td>
                     <td><a href="" target="_blank">DGKMF027F8JC</a></td>
                     <td>London</td>
@@ -121,7 +122,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_19</td>
                     <td><a href="" target="_blank">DGKM80HHF8JC</a></td>
                     <td>London</td>
@@ -130,7 +131,7 @@
                     <td>no</td>
                     <td>Preparing for shipment to PORTO</td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_20</td>
                     <td><a href="" target="_blank">DGKN417ZF8JC</a></td>
                     <td>London</td>
@@ -139,7 +140,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_21</td>
                     <td><a href="" target="_blank">DGKN4174F8JC</a></td>
                     <td>London</td>
@@ -148,7 +149,7 @@
                     <td>no</td>
                     <td>Preparing for shipment to Porto</td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_23</td>
                     <td><a href="" target="_blank">DGKQK054GQ17</a></td>
                     <td>London</td>
@@ -157,7 +158,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_25</td>
                     <td><a href="" target="_blank">DGKRP0BUGQ17</a></td>
                     <td>London</td>
@@ -166,7 +167,7 @@
                     <td>no</td>
                     <td>Preparing for shipment to Porto</td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_26</td>
                     <td><a href="" target="_blank">C02KC5KXDNMP</a></td>
                     <td>London</td>
@@ -175,7 +176,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_27</td>
                     <td><a href="" target="_blank">DGKRT0B6GQ17</a></td>
                     <td>London</td>
@@ -184,7 +185,7 @@
                     <td>no</td>
                     <td>To be returned end of month: for Stefano</td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_28</td>
                     <td><a href="" target="_blank">DGKRT0BTGQ17</a></td>
                     <td>London</td>
@@ -193,7 +194,7 @@
                     <td>no</td>
                     <td>Potentially not being used</td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_30</td>
                     <td><a href="" target="_blank">DGKS9HHHGQ17</a></td>
                     <td>London</td>
@@ -202,7 +203,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr class="porto">
+                <tr class="porto-imacs">
                     <td>GL_iMac_31</td>
                     <td><a href="" target="_blank">DGKS9HYCGQ17</a></td>
                     <td>Porto</td>
@@ -211,7 +212,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_32</td>
                     <td><a href="" target="_blank">DGKSPJ9TGQ17</a></td>
                     <td>London</td>
@@ -220,7 +221,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr class="porto">
+                <tr class="porto-imacs">
                     <td>GL_iMac_33</td>
                     <td><a href="" target="_blank">DGKSQHLFGQ17</a></td>
                     <td>Porto</td>
@@ -229,7 +230,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_34</td>
                     <td><a href="" target="_blank">DGKSQHCKGQ17</a></td>
                     <td>London</td>
@@ -238,7 +239,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_35</td>
                     <td><a href="" target="_blank">DGKT2HJQGQ17</a></td>
                     <td>London</td>
@@ -247,7 +248,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_37</td>
                     <td><a href="" target="_blank">DGKRT0B6GQ17</a></td>
                     <td>London</td>
@@ -256,7 +257,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_38</td>
                     <td><a href="" target="_blank">DGKTFHH8GQ18</a></td>
                     <td>London</td>
@@ -265,7 +266,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_39</td>
                     <td><a href="" target="_blank">DGKTLHD4GQ18</a></td>
                     <td>London</td>
@@ -274,7 +275,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_40</td>
                     <td><a href="" target="_blank">DGKTMFHGQ18</a></td>
                     <td>London</td>
@@ -283,7 +284,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_41</td>
                     <td><a href="" target="_blank">DGKTLHCHGQ18</a></td>
                     <td>London</td>
@@ -292,7 +293,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_42</td>
                     <td><a href="" target="_blank">C02TG0F8J1GG</a></td>
                     <td>London</td>
@@ -301,7 +302,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_43</td>
                     <td><a href="" target="_blank">C02TG0A5J1GG</a></td>
                     <td>London</td>
@@ -310,7 +311,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_44</td>
                     <td><a href="" target="_blank">C02TG09TJ1GG</a></td>
                     <td>London</td>
@@ -319,7 +320,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr class="porto">
+                <tr class="porto-imacs">
                     <td>GL_iMac_45</td>
                     <td><a href="" target="_blank">C02TG05QJ1GG</a></td>
                     <td>Porto</td>
@@ -328,7 +329,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_46</td>
                     <td><a href="" target="_blank">DGKNH0ZZF8JC</a></td>
                     <td>London</td>
@@ -337,7 +338,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_47</td>
                     <td><a href="" target="_blank">DGKNH0ZZF8JC</a></td>
                     <td>London</td>
@@ -346,7 +347,7 @@
                     <td>no</td>
                     <td></td>
                 </tr>
-                <tr>
+                <tr class="london-imacs">
                     <td>GL_iMac_48</td>
                     <td><a href="" target="_blank">DGKLQ1V4F8JC</a></td>
                     <td>London</td>
@@ -354,7 +355,7 @@
                     <td>Olivia Ainsworth</td>
                     <td>no</td>
                     <td></td>
-                <tr class="leased">
+                <tr class="leased-imacs london-imacs">
                     <td>GL_iMac_49</td>
                     <td><a href="" target="_blank">DGKRP0J6GQ17</a></td>
                     <td>London</td>
@@ -363,7 +364,7 @@
                     <td>yes</td>
                     <td></td>
                 </tr>
-                <tr class="leased">
+                <tr class="leased-imacs london-imacs">
                     <td>GL_iMac_52</td>
                     <td><a href="" target="_blank">H12F4HWCPN78</a></td>
                     <td>London</td>
@@ -372,7 +373,7 @@
                     <td>yes</td>
                     <td></td>
                 </tr>
-                <tr class="leased">
+                <tr class="leased-imacs london-imacs">
                     <td>GL_iMac_53</td>
                     <td><a href="" target="_blank">H12F5HCAPN78</a></td>
                     <td>London</td>
@@ -381,7 +382,7 @@
                     <td>yes</td>
                     <td></td>
                 </tr>
-                <tr class="leased">
+                <tr class="leased-imacs london-imacs">
                     <td>GL_iMac_54</td>
                     <td><a href="" target="_blank">H12F2JAPPN78</a></td>
                     <td>London</td>
@@ -390,7 +391,7 @@
                     <td>yes</td>
                     <td></td>
                 </tr>
-                <tr class="leased">
+                <tr class="leased-imacs london-imacs">
                     <td>GL_iMac_55</td>
                     <td><a href="" target="_blank">H12F2JAXPN78</a></td>
                     <td>London</td>
@@ -399,7 +400,7 @@
                     <td>yes</td>
                     <td></td>
                 </tr>
-                <tr class="leased">
+                <tr class="leased-imacs london-imacs">
                     <td>GL_iMac_56</td>
                     <td><a href="" target="_blank">H12F2JBTPN78</a></td>
                     <td>London</td>
@@ -408,7 +409,7 @@
                     <td>yes</td>
                     <td></td>
                 </tr>
-                <tr class="porto">
+                <tr class="porto-imacs">
                     <td>GL_iMac_57</td>
                     <td><a href="" target="_blank">C02F45SCPN5V</a></td>
                     <td>Porto</td>
