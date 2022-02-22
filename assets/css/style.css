@@ -47,6 +47,10 @@ h1 {
     font-size: 20px;
 }
 
+/* Selection buttons*/
+#button-area button{
+    margin: 10px 3px;
+}
 
 /*Nav Bar */
 nav {
