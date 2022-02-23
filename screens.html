@@ -30,6 +30,11 @@
             <input type="text" id="screen-keyword-search" aria-label="Search through screen database">
             <input type="submit" value="Search" id="button-screen-search" class="buttons">
         </form>
+        <div class="button-area">
+
+            <button class="selection-button-screen buttons" id="screen-button-london">London Office</button>
+            <button class="selection-button-screen buttons" id="screen-button-homeoffice">Home Office</button>
+        </div>
         <table>
             <tr>
                 <th>Screen Number</th>
@@ -40,7 +45,7 @@
                 <th>Leased?</th>
                 <th>Comments</th>
             </tr>
-            <tr>
+            <tr class="ldn-office">
                 <td>ASUS 10</td>
                 <td><a href="" target="_blank">J7LMTF169774</a></td>
                 <td>London</td>
@@ -49,7 +54,7 @@
                 <td></td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="ldn-office">
                 <td>ASUS 11</td>
                 <td><a href="" target="_blank">J7LMTF170389</a></td>
                 <td>London</td>
@@ -58,7 +63,7 @@
                 <td></td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="home-office">
                 <td>AOC</td>
                 <td><a href="" target="_blank">AOCE2470SWH </a></td>
                 <td>London</td>
@@ -67,7 +72,7 @@
                 <td></td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="home-office">
                 <td>DELL 1</td>
                 <td><a href="" target="_blank">CN0GH85D6418063Q0A95</a></td>
                 <td>London</td>
@@ -76,7 +81,7 @@
                 <td></td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="home-office">
                 <td>DELL 2</td>
                 <td><a href="" target="_blank">CN0GH85D6418063Q030S</a></td>
                 <td>London</td>
@@ -85,7 +90,7 @@
                 <td></td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="home-office">
                 <td>DELL 3</td>
                 <td><a href="" target="_blank"></a></td>
                 <td>London</td>
@@ -94,7 +99,7 @@
                 <td></td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="ldn-office">
                 <td>DELL 4</td>
                 <td><a href="" target="_blank">CN0V48W2744456550245</a></td>
                 <td>London</td>
@@ -103,7 +108,7 @@
                 <td></td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="ldn-office">
                 <td>DELL 5</td>
                 <td><a href="" target="_blank">CH0GH85DTV2007CK2017</a></td>
                 <td>London</td>
@@ -112,7 +117,7 @@
                 <td></td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="ldn-office">
                 <td>DELL 6</td>
                 <td><a href="" target="_blank">CN0J42MC744456B9130MA01</a></td>
                 <td>London</td>
@@ -121,7 +126,7 @@
                 <td></td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="ldn-office">
                 <td>DELL 7</td>
                 <td><a href="" target="_blank">CN0720XR7444569UAHUL</a></td>
                 <td>London</td>
@@ -130,7 +135,7 @@
                 <td></td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="ldn-office">
                 <td>DELL 12</td>
                 <td><a href="" target="_blank">CN0720XR7444569UAHUL</a></td>
                 <td>London</td>
@@ -139,7 +144,7 @@
                 <td></td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="ldn-office">
                 <td>DELL 17</td>
                 <td><a href="" target="_blank">CN0GH85DTV200823259S</a></td>
                 <td>London</td>
@@ -148,7 +153,7 @@
                 <td></td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="ldn-office">
                 <td>DELL 31</td>
                 <td><a href="" target="_blank">CN0GH85DTV2007B519ZS</a></td>
                 <td>London</td>
@@ -157,9 +162,7 @@
                 <td></td>
                 <td></td>
             </tr>
-
-
-            <tr>
+            <tr class="home-office">
                 <td>HP 1</td>
                 <td><a href="" target="_blank"></a></td>
                 <td>London</td>
@@ -168,7 +171,7 @@
                 <td></td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="home-office">
                 <td>HP 2</td>
                 <td><a href="" target="_blank">CNK7311FGB</a></td>
                 <td>London</td>
@@ -177,7 +180,7 @@
                 <td></td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="ldn-office">
                 <td>HP 15</td>
                 <td><a href="" target="_blank">6CM81323V4</a></td>
                 <td>London</td>
@@ -186,7 +189,7 @@
                 <td></td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="ldn-office">
                 <td>HP 38</td>
                 <td><a href="" target="_blank">6CM843254M</a></td>
                 <td>London</td>
@@ -195,15 +198,11 @@
                 <td></td>
                 <td></td>
             </tr>
-
-
-
         </table>
     </main>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/scriptscreens.js"></script>
 </body>
 
 </html>
