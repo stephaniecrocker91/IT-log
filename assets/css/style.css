@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arsenal&display=swap');
 body {
     font-family: 'Arsenal', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     margin:0;
 }
 h1 {
@@ -47,7 +47,8 @@ h1 {
 /*Nav Bar */
 nav {
     background-color: #f3f3f3;
-    padding: 3vh 5vw;
+    padding: 0 5vw;
+    height: 5vh;
 }
 
 ul {
@@ -57,11 +58,15 @@ ul {
 li {
     display: inline-block;
     text-decoration: none;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin: 1.2vh 5vw;
 }
 li a {
     color: black;
+}
+li a:hover {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
 }
 
 /*Logo*/
