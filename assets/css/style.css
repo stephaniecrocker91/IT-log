@@ -15,14 +15,6 @@ h1 {
 
 }
 
-.porto {
-    background-color: rgba(128, 128, 128, 0.253);
-}
-
-.leased {
-    background-color: rgba(255, 255, 0, 0.205);
-}
-
 /* General styling rules*/
 .keyword {
     text-decoration: underline;
@@ -48,7 +40,7 @@ h1 {
 }
 
 /* Selection buttons*/
-#button-area button{
+.button-area button{
     margin: 10px 3px;
 }
 

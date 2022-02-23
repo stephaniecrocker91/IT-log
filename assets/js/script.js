@@ -1,5 +1,6 @@
+/* --------------------------------------------------------- IMACS.HTML PAGE  ---------------------------------------------------------*/
+
 /* Global variables*/
-let allImacs = document.getElementById("all-imacs");
 let portoImacs = document.getElementsByClassName("porto-imacs");
 let londonImacs = document.getElementsByClassName("london-imacs");
 let leasedImacs = document.getElementsByClassName("leased-imacs");
@@ -80,4 +81,73 @@ function displayLondonImacs(e) {
     }
 }
 
-    
+/* --------------------------------------------------------- LAPTOPS.HTML PAGE  ---------------------------------------------------------*/
+
+    /* Global variables*/
+let portoLaptops = document.getElementsByClassName("porto-laptops");
+let londonLaptops = document.getElementsByClassName("london-laptops");
+let leasedLaptops = document.getElementsByClassName("leased-laptops");
+let ownedLaptops = document.getElementsByClassName("owned-laptops");
+let spareLaptops = document.getElementsByClassName("spare-laptops");
+
+/* get London imac Button*/
+let allLaptopButton = document.getElementById("laptop-button-all");
+let londonLaptopButton = document.getElementById("laptop-button-london");
+let portoLaptopButton = document.getElementById("laptop-button-porto");
+let leasedLaptopButton = document.getElementById("laptop-button-leased");
+let spareLaptopButton = document.getElementById("laptop-button-spare");
+
+
+
+/* Event listeners*/
+allLaptopButton.addEventListener('click',displayAllLaptops)
+londonLaptopButton.addEventListener('click',displayLondonLaptops);
+portoLaptopButton.addEventListener('click',displayPortoLaptops);
+leasedLaptopButton.addEventListener('click',displayLeasedLaptops);
+spareLaptopButton.addEventListener('click',displaySpareLaptops);
+
+
+/** 
+ * Function to display all laptops
+ * */
+ function displayAllLaptops(e) {
+    for (let i of portoLaptops) {
+        i.style.display="table-row";
+    }  
+    for (let i of londonLaptops) {
+        i.style.display="table-row";
+    }  
+}
+/** 
+ * Function to display only London laptops
+ * */
+ function displayLondonLaptops(e) {
+    for (let i of portoLaptops) {
+        i.style.display="none";
+    }  
+    for (let i of londonLaptops) {
+        i.style.display="table-row";
+    }  
+}
+/** 
+ * Function to display only Porto Laptops
+ * */
+ function displayPortoLaptops(e) {
+    for (let i of portoLaptops) {
+        i.style.display="table-row";
+    } 
+    for (let i of londonLaptops) {
+        i.style.display="none";
+    }
+}
+/** 
+ * Function to display only Leased iMacs
+ * */
+ function displayLeasedLaptops(e) {
+    for (let i of leasedLaptops) {
+        i.style.display="table-row";
+    }
+    for (let i of ownedLaptops) {
+        i.style.display="none";
+    }
+}
