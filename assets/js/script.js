@@ -90,7 +90,7 @@ let leasedLaptops = document.getElementsByClassName("leased-laptops");
 let ownedLaptops = document.getElementsByClassName("owned-laptops");
 let spareLaptops = document.getElementsByClassName("spare-laptops");
 
-/* get London imac Button*/
+/* get London laptop Button*/
 let allLaptopButton = document.getElementById("laptop-button-all");
 let londonLaptopButton = document.getElementById("laptop-button-london");
 let portoLaptopButton = document.getElementById("laptop-button-porto");
@@ -141,7 +141,7 @@ spareLaptopButton.addEventListener('click',displaySpareLaptops);
     }
 }
 /** 
- * Function to display only Leased iMacs
+ * Function to display only Leased Laptops
  * */
  function displayLeasedLaptops(e) {
     for (let i of leasedLaptops) {
