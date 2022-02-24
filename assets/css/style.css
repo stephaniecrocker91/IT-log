@@ -6,9 +6,7 @@ body {
     margin:0;
 }
 h1 {
-    background-color: #f3f3f3;
-    width: 70vw;
-    margin-left: 15vw;
+    background-color: #ebc5ae8a;
     text-align: center;
     color:black;
     font-size: 26px;
@@ -46,7 +44,7 @@ h1 {
 
 /*Nav Bar */
 nav {
-    background-color: #f3f3f3;
+    background-color:#f3f3f3;
     padding: 0 5vw;
     height: 5vh;
 }
@@ -96,4 +94,11 @@ th {
 td {
     border: 1px solid;
     padding: 2px;
+ }
+
+ /*Office Layout HTML*/
+
+ #office-layout{
+    width:70vw;
+    margin: 10vh 15vw;
  }
