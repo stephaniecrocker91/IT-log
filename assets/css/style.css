@@ -4,13 +4,16 @@ body {
     font-family: 'Arsenal', sans-serif;
     font-size: 16px;
     margin:0;
-}
-h1 {
-    background-color: #ebc5ae8a;
     text-align: center;
+}
+h1{
+  
     color:black;
     font-size: 26px;
 
+}
+h2 {
+    font-size: 22px;
 }
 
 /* General styling rules*/
@@ -20,9 +23,6 @@ h1 {
 }
 
 /* Search forms*/
-.search {
-    text-align: center;
-}
 #all-search {
     margin-top: 2vh;
 }
@@ -50,7 +50,6 @@ nav {
 }
 
 ul {
-    text-align: center;
     margin: 0 auto;
 }
 li {
@@ -79,7 +78,6 @@ li a:hover {
 }
 #logo {
     width: 50vw;
-    margin-left: 25vw;
     margin-top: 35vh;
 }
 /* Table styling */
@@ -98,7 +96,7 @@ td {
 
  /*Office Layout HTML*/
 
- #office-layout{
+ .office-layout{
     width:70vw;
     margin: 10vh 15vw;
  }
